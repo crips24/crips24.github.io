@@ -37,7 +37,7 @@ if (ui == true){
     guess = prompt("quel est le prix ? : ");
     
     if (guess == prix){
-        alert("bravo! "+nom+" vous avez trouvé le prix avec "+essais+" essais !");
+        alert("bravo! "+/*nom+*/" vous avez trouvé le prix avec "+essais+" essais !");
         jeux = true;
     }
     else if (guess>prix){
