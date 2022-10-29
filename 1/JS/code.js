@@ -10,6 +10,7 @@ var prix=89;
 var guess=10000;
 var essais=0;  
 //demande du prénom et de l'age
+/*
 while (isNaN(nom) == false ! nom== null) {
     nom = prompt("bonjour, bienvenue sur la page du javascript, pour réaliser une experience je vous demande d'entrer votre prénom:")
 };
@@ -17,7 +18,7 @@ alert("merci !");
 while (isNaN(age) == true ) {
     age = prompt("maintenant je vous demande vôtre age")
 };
-alert("Vous êtes: "+nom+" et vous avez: "+age+"ans, Bienvenue !")
+alert("Vous êtes: "+nom+" et vous avez: "+age+"ans, Bienvenue !")*/
 ui=confirm("voulez vous faire un jeu du juste prix ?");
 
 
