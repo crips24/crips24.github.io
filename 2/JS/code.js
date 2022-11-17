@@ -1,4 +1,9 @@
-const wrapper = document.getElementById("bubble-wrapper");
+
+
+
+
+
+  const wrapper = document.getElementById("bubble-wrapper");
 
 const animateBubble = x => {  
   const bubble = document.createElement("div");
@@ -9,6 +14,26 @@ const animateBubble = x => {
   wrapper.appendChild(bubble);
   
   setTimeout(() => wrapper.removeChild(bubble), 2000);
+  
 }
 
-window.onmousemove = e => animateBubble(e.clientX);
+  window.onmousemove = e => animateBubble(e.clientX);
+
+  
+
+    
+    
+    
+  
+
+  // else{
+  //   animateBubble(-1000);
+  //   console.log("aa");
+  //   return;
+
+    
+  // }
+
+
+
+
