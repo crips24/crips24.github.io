@@ -59,13 +59,13 @@ body {
 	}
 	
 	.bubble {
-	height: max(300px, 30vw);
+	height: max(300px,30vw);
 	width: max(300px,30vw);
 	background-color : rgb(33,150,243);
 	border-radius : 100%;
 	position:absolute;
 	left: 50%;
-	top:100%;
+	top:90%;
 	animation : wave 2s ease-in-out infinite;
 	
 	}
@@ -78,4 +78,5 @@ body {
 	transform: translate(-50%,20%);
 	}
 	}
+	
 	
