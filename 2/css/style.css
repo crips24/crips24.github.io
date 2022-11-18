@@ -44,6 +44,22 @@ body {
 	width: 20%;
 }
 
+.styleInfo{
+	border: 1px solid black;
+	width: 30%;
+	height:34%;
+	left: 10%;
+	top: 775px;
+	position: absolute;
+	border-radius: 10px;
+	background-color: #10272e;
+	}
+	
+	  .posInfo{
+		left: 10px;
+		position: inherit;
+	
+	}
 
 .styleParc{
 border: 1px solid black;
@@ -123,13 +139,13 @@ background-color: #10272e;
 
 
 
-  @keyframes wave {
+@keyframes wave {
 	from, to {
-	  transform: translate(-10%, 0%);
+	  transform: translate(-50%, 0%);
 	}
 	
 	50% {
-	  transform: translate(-10%, -10%);
+	  transform: translate(-50%, -20%);
 	}
   }
   
@@ -138,7 +154,7 @@ background-color: #10272e;
 	width: 100%;
 	
 	position: fixed;
-	top: 0px;
+	top: 100px;
 	
 	overflow: hidden;
 	pointer-events: none;
