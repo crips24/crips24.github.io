@@ -1,7 +1,4 @@
-/* h1 {
-text-align: center;
-color: rgb(255, 255, 255); 
-} */
+
 header{
 	top: 0px;
 	z-index: 10;
@@ -23,8 +20,7 @@ body {
 	
 }
 .dvi{
-	/* text-align: center;
-	size: 1000px; */
+
 	position:absolute;
 	left: 45%;
 	background-color: #122C34;
@@ -33,22 +29,10 @@ body {
 	top: 80%;
 
 }
-/* .dvitxt{
-	position: fixed;
-	top: 10%;
-	text-align: center;
-}  */
-.I{
-	position: absolute;
-	top: 25%;
-	left: 50%;
-	width: 100%;
-
-}
 .dpdm{
 	text-align: center;
 	position: absolute;
-	top: 25%;
+	top: 225px;
 }
 .pdm{
 	clip-path: circle(30%);
@@ -56,46 +40,58 @@ body {
 	width: 20%;
 }
 
-.skills{
+
+  .posComp{
 	border: 1px solid black;
-	width: 25%;
-	left: 20%;
+	width: 30%;
+	left: 10%;
+	top: 775px;
 	position: absolute;
 	border-radius: 10px;
 	background-color: #10272e;
-}
-.container {
-	width: 100%;
-	background-color: #ddd;
   }
-  .html{
+  .cont {
 	border: 1px solid black;
-	width: 80%;
-	left: 15%;
-	top: 32%;
-	position: absolute;
 	border-radius: 10px;
-	background-color: #ffd90038;
-  }
-  .css{
-	border: 1px solid black;
-	width: 80%;
-	left: 15%;
-	top: 55%;
-	position: absolute;
-	border-radius: 10px;
-	background-color: #ff00804f;
-  }
-  .py{
-	border: 1px solid black;
-	width: 80%;
-	left: 15%;
-	top: 76%;
-	position: absolute;
-	border-radius: 10px;
-	background-color: #0084ff42;
+	width: 90%;
+	left: 10%;
+	top: 20%;
+	
+	background-color: #122C34;
   }
   
+  .formaBar {
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+  }
+  
+  .html {width: 90%; background-color: #1eff0038;border-radius: 10px;border: 1px solid black;}
+  .css {width: 60%; background-color: #00c3ff4f;border-radius: 10px;border: 1px solid black;}
+  .py {width: 90%; background-color: #ff00154f;border-radius: 10px;border: 1px solid black;}
+
+
+
+
+
+  .styleInter{
+	border: 1px solid black;
+	width: 30%;
+	left: 60%;
+	top: 775px;
+	position: absolute;
+	border-radius: 10px;
+	background-color: #10272e;
+  }
+  .posInter{
+	position: absolute;
+	left:1000px;
+
+}
+
+
+
 
 
 
@@ -130,7 +126,7 @@ body {
 	
 	position: absolute;
 	left: 50%;
-	top: 100%;
+	bottom: -550px;
 	
 	animation: wave 2s ease-in-out infinite;
   }
