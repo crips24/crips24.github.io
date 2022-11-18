@@ -1,4 +1,8 @@
-
+a{
+	font-family:corbel;
+	text-decoration: none;
+	color :#552152 ;
+}
 header{
 	top: 0px;
 	z-index: 10;
@@ -41,7 +45,7 @@ body {
 }
 
 
-.posInfo{
+.styleParc{
 border: 1px solid black;
 width: 30%;
 height:34%;
@@ -50,10 +54,16 @@ top: 775px;
 position: absolute;
 border-radius: 10px;
 background-color: #10272e;
+}
 
-	
+  .posParc{
+	left: 10px;
+	position: inherit;
 
 }
+
+
+
 
 
 
@@ -115,11 +125,11 @@ background-color: #10272e;
 
   @keyframes wave {
 	from, to {
-	  transform: translate(-50%, 0%);
+	  transform: translate(-10%, 0%);
 	}
 	
 	50% {
-	  transform: translate(-50%, -20%);
+	  transform: translate(-10%, -10%);
 	}
   }
   
