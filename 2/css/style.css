@@ -41,11 +41,27 @@ body {
 }
 
 
+.posInfo{
+border: 1px solid black;
+width: 30%;
+height:34%;
+left: 60%;
+top: 775px;
+position: absolute;
+border-radius: 10px;
+background-color: #10272e;
+
+	
+
+}
+
+
+
   .posComp{
 	border: 1px solid black;
 	width: 30%;
 	left: 10%;
-	top: 775px;
+	top: 1200px;
 	position: absolute;
 	border-radius: 10px;
 	background-color: #10272e;
@@ -67,7 +83,7 @@ body {
 	color: white;
   }
   
-  .html {width: 90%; background-color: #1eff0038;border-radius: 10px;border: 1px solid black;}
+  .html {width: 85%; background-color: #1eff0038;border-radius: 10px;border: 1px solid black;}
   .css {width: 60%; background-color: #00c3ff4f;border-radius: 10px;border: 1px solid black;}
   .py {width: 90%; background-color: #ff00154f;border-radius: 10px;border: 1px solid black;}
 
@@ -78,15 +94,16 @@ body {
   .styleInter{
 	border: 1px solid black;
 	width: 30%;
+	height:34%;
 	left: 60%;
-	top: 775px;
+	top: 1200px;
 	position: absolute;
 	border-radius: 10px;
 	background-color: #10272e;
   }
   .posInter{
-	position: absolute;
-	left:1000px;
+	left: 10px;
+	position: inherit;
 
 }
 
